@@ -1,0 +1,28 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "odd_expectations_DM_CustomerRegionalSales_validity",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "Sales",
+        "max_value": 89061.05,
+        "min_value": 0.0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_mean_to_be_between",
+      "kwargs": {
+        "column": "Sales",
+        "max_value": 1775.87,
+        "min_value": 1775.87
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.15.13"
+  }
+}

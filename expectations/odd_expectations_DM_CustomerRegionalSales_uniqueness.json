@@ -1,0 +1,17 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "odd_expectations_DM_CustomerRegionalSales_uniqueness",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_unique",
+      "kwargs": {
+        "column": "OrderID"
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.15.13"
+  }
+}

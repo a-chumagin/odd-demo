@@ -1,0 +1,38 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "odd_expectations_DM_CustomerRegionalSales_integrity",
+  "expectations": [
+    {
+      "expectation_type": "expect_customer_names_are_same_that_in_stg_customers",
+      "kwargs": {
+        "column": "CustomerName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_customer_names_are_same_that_in_stg_customers",
+      "kwargs": {
+        "column": "CustomerName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_order_id_are_same_that_in_stg_orders",
+      "kwargs": {
+        "column": "CustomerName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_order_date_are_same_that_in_stg_orders",
+      "kwargs": {
+        "column": "CustomerName"
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.15.13"
+  }
+}
