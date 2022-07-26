@@ -3,7 +3,7 @@
   "expectation_suite_name": "odd_expectations_DM_CustomerRegionalSales_uniqueness",
   "expectations": [
     {
-      "expectation_type": "expect_date_is_not_less_than_1_month",
+      "expectation_type": "expect_date_is_not_less_than_1_day",
       "kwargs": {
         "column": "OrderDate"
       },

@@ -15,8 +15,8 @@
       "expectation_type": "expect_column_mean_to_be_between",
       "kwargs": {
         "column": "Sales",
-        "max_value": 1775.87,
-        "min_value": 1775.87
+        "max_value": 1800,
+        "min_value": 1700
       },
       "meta": {}
     }
