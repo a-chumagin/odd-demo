@@ -1,9 +1,9 @@
 Goal: The project shows example tests for different pillars:
 - Completeness
-- Consistensy
+- Consistency
 - Integrity
 - Timeless
-- Uniqieness
+- Uniqueness
 - Validity
 
 All tests are stored in directory: `expectations`
